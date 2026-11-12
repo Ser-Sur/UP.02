@@ -1,0 +1,22 @@
+<Application x:Class="Up02Variant3.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="InkBrush" Color="#202B28" />
+        <SolidColorBrush x:Key="MutedBrush" Color="#78837F" />
+        <SolidColorBrush x:Key="GreenBrush" Color="#19745B" />
+        <SolidColorBrush x:Key="OrangeBrush" Color="#D9823B" />
+        <SolidColorBrush x:Key="SurfaceBrush" Color="#FFFFFF" />
+        <SolidColorBrush x:Key="CanvasBrush" Color="#F7F9F7" />
+        <SolidColorBrush x:Key="LineBrush" Color="#E6EBE8" />
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Padding" Value="16,10" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+    </Application.Resources>
+</Application>
